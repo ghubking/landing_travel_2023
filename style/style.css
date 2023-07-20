@@ -1,0 +1,196 @@
+/* 1 메인화면 영역*/
+section {}
+section .main_bg {
+    background: url(../images/bg/1.main_bg_end.jpg) no-repeat center;
+    height:1474px; background-size: cover;
+}
+section .main_bg .main {
+    width:1200px; height:1402px;
+    margin: 0 auto;
+}
+section .main_bg .main .main_title{
+    margin: px 0 0 120px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+section .main_bg .main .main_title .title_head {
+    
+}
+section .main_bg .main .main_title .title_head p {
+    color:#fff;
+    padding-top:44px;
+    font-size:1.333rem; line-height: 50px;
+    
+}
+section .main_bg .main .main_title .title_head h1 {
+    color:#fff;
+    font-size: 3.157rem;
+    margin: 20px 0 20px 0;
+    
+
+}
+section .main_bg .main .main_title .title_head h2 {
+    color:#fff;
+    font-size:2.369rem;
+}
+section .main_bg .main .main_title img {
+    width:150px; height: 150px;
+    position: absolute;
+    left:300px;
+    top:20px; 
+
+    
+}
+section .main_bg .main .company_pr {
+    width:1114px; height:795px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    
+}
+section .main_bg .main .company_pr .pr1 {
+    width:355px; height:223px;
+    margin-top: 36px;
+}
+section .main_bg .main .company_pr .pr2 {
+    width:355px; height:223px;
+    position: relative;
+}
+section .main_bg .main .company_pr .discovery_title {
+    width:708px; height:437px;
+    position: absolute;
+    right:550px; top:600px;
+}
+section .main_bg .main .country {
+    width:1200px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+section .main_bg .main .country li {
+    color:#fff;
+    border: 2px solid#fff;
+    margin: 10px 10px;
+    font-size: 1.333rem;
+}
+section .main_bg .main .reservation_go {}
+section .main_bg .main .reservation_go a {}
+section .main_bg .main .reservation_go a span {}
+section .main_bg .main .reservation_go a img {}
+/* 2 탐험지도 영역 */
+section {}
+section .map_bg {}
+section .map_bg .map_bg_top {}
+section .map_bg .map_bg_top span {}
+section .map_bg .map_bg_top span img {}
+section .map_bg .map_bg_top h1 {}
+section .map_bg .map_bg_top h2 {}
+section .map_bg .reservation_go {}
+section .map_bg .reservation_go a {}
+section .map_bg .reservation_go a span {}
+section .map_bg .reservation_go a img {}
+/* 3 행복특전 영역*/
+section {}
+section .merit_bg {}
+section .merit_bg .merit_top {}
+section .merit_bg .merit_top span {}
+section .merit_bg .merit_top span img {}
+section .merit_bg .merit_top h1 {}
+section .merit_bg .merit_top h2 {}
+section .merit_bg .merit_top p {}
+section .merit_bg .merit_contents {}
+section .merit_bg .merit_contents ul {}
+section .merit_bg .merit_contents ul li {}
+section .merit_bg .merit_contents ul li img {}
+section .merit_bg .merit_contents ul li h3 {}
+section .merit_bg .merit_contents ul li span {}
+section .merit_bg .reservation_go {}
+section .merit_bg .reservation_go a {}
+section .merit_bg .reservation_go a span {}
+section .merit_bg .reservation_go a img {}
+/* 4 여행지소개 영역*/
+section {}
+section .travel_intro {}
+section .travel_intro .trav_int_top {}
+section .travel_intro .trav_int_top span {}
+section .travel_intro .trav_int_top span img {}
+section .travel_intro .trav_int_top h1 {}
+section .travel_intro .trav_int_top h2 {}
+section .travel_intro .trav_int_top p {}
+section .travel_intro .travel_contents {}
+section .travel_intro .travel_contents ul {}
+section .travel_intro .travel_contents ul li {}
+section .travel_intro .travel_contents ul li img {}
+section .travel_intro .travel_contents ul li span {}
+section .travel_intro .travel_contents ul li em {}
+section .travel_intro .reservation_go {}
+section .travel_intro .reservation_go a {}
+section .travel_intro .reservation_go a span {}
+section .travel_intro .reservation_go a img {}
+/* 5 주요숙소 영역 */
+section {}
+section .hotel_intro {}
+section .hotel_intro .hotel_int_top {}
+section .hotel_intro .hotel_int_top span {}
+section .hotel_intro .hotel_int_top span img {}
+section .hotel_intro .hotel_int_top h1 {}
+section .hotel_intro .hotel_int_top h2 {}
+section .hotel_intro .hotel_int_top p {}
+section .hotel_intro .hotel_int_top p em {}
+section .hotel_intro .contents {}
+section .hotel_intro .contents .contents_desc {}
+section .hotel_intro .contents .contents_desc .contents1 {}
+section .hotel_intro .contents .contents_desc .contents1 .content1_left {}
+section .hotel_intro .contents .contents_desc .contents1 .content1_left em {}
+section .hotel_intro .contents .contents_desc .contents1 .content1_left span {}
+section .hotel_intro .contents .contents_desc .contents1 img {}
+section .hotel_intro .reservation_go {}
+section .hotel_intro .reservation_go a {}
+section .hotel_intro .reservation_go a span {}
+section .hotel_intro .reservation_go a img {}
+/* 6 체험영상 영역  */
+section {}
+section .youtube_bg {}
+section .youtube_bg .content {}
+section .youtube_bg .content h1 {}
+section .youtube_bg .content h2 {}
+section .youtube_bg .content video {}
+section .youtube_bg .content p {}
+section .youtube_bg .content span {}
+section .youtube_bg .reservation_go {}
+section .youtube_bg .reservation_go a {}
+section .youtube_bg .reservation_go a span {}
+section .youtube_bg .reservation_go a img {}
+/* 7 여행 후기 영역 */
+section {}
+section h1 {}
+section h2 {}
+section .review_bg {}
+section .review_bg .review1 {}
+section .review_bg .review1 p {}
+section .review_bg .review1 span {}
+section .review_bg .rvw_more {}
+section .review_bg .rvw_more span {}
+section .review_bg .rvw_more span img {}
+section .travel_select {}
+section .travel_select .select {}
+section .travel_select .select h3 {}
+section .travel_select .select form {}
+section .travel_select .select form fieldset {}
+section .travel_select .select form fieldset legend {}
+section .travel_select .select form fieldset ul {}
+section .travel_select .select form fieldset ul li {}
+section .travel_select .select form fieldset ul li label {}
+section .travel_select .select form fieldset ul li label #s1 {}
+section .travel_select .select form fieldset ul li label span {}
+section .travel_select .select form fieldset ul li label #s2 {}
+section .travel_select .select form fieldset ul li label #s3 {}
+section .travel_select .reservation_go {}
+section .travel_select .reservation_go a {}
+section .travel_select .reservation_go a span {}
+section .travel_select .reservation_go a img {}
