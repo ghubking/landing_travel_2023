@@ -5,11 +5,10 @@ section .main_bg {
     width:1440px; margin:0 auto; background-size: cover;
 }
 section .main_bg .main {
-    width:1200px; height:1402px;
+    width:1200px; height:1460px;
     margin: 0 auto;
 }
 section .main_bg .main .main_title{
-    margin: px 0 0 120px;
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-start;
@@ -29,6 +28,7 @@ section .main_bg .main .main_title .title_head h1 {
     color:#fff;
     font-size: 3.157rem;
     margin: 20px 0 20px 0;
+    text-align: left;
     
 
 }
@@ -81,7 +81,7 @@ section .main_bg .main .reservation_go {
     width:363px; height:86px;
     text-align: center;
     border-radius: 50px;
-    margin: 60px 0 0 837px;
+    margin: 30px 0 30px 837px;
     padding-top: 25px;
 }
 section .main_bg .main .reservation_go a {}
@@ -180,7 +180,7 @@ section .merit_bg .merit_top img {
 }
 section .merit_bg .merit_top span {
     font-size: 1.333rem;
-    margin: 100px 0 0 20px;
+    margin: 100px 0 0 0px;
     font-family: 'Nanum Brush Script', cursive;
     src: url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap');
     font-weight: 600;
@@ -281,7 +281,7 @@ section .travel_intro .trav_int_top img {
 }
 section .travel_intro .trav_int_top span {
     font-size: 1.333rem;
-    margin: 100px 0 0 20px;
+    margin: 100px 0 0 0px;
     font-family: 'Nanum Brush Script', cursive;
     src: url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap');
     font-weight: 600;
@@ -357,65 +357,304 @@ section .travel_intro .reservation_go a span {
 section .travel_intro .reservation_go a img {
     width:20px; height:20px;
 }
-/* 5 주요숙소 영역 ----> 여기할차례   */
+/* 5 주요숙소 영역    */
 section {}
-section .hotel_intro {}
-section .hotel_intro .hotel_int_top {}
-section .hotel_intro .hotel_int_top span {}
-section .hotel_intro .hotel_int_top span img {}
-section .hotel_intro .hotel_int_top h1 {}
-section .hotel_intro .hotel_int_top h2 {}
-section .hotel_intro .hotel_int_top p {}
-section .hotel_intro .hotel_int_top p em {}
-section .hotel_intro .contents {}
-section .hotel_intro .contents .contents_desc {}
-section .hotel_intro .contents .contents_desc .contents1 {}
-section .hotel_intro .contents .contents_desc .contents1 .content1_left {}
-section .hotel_intro .contents .contents_desc .contents1 .content1_left em {}
-section .hotel_intro .contents .contents_desc .contents1 .content1_left span {}
-section .hotel_intro .contents .contents_desc .contents1 img {}
-section .hotel_intro .reservation_go {}
+section .hotel_intro {
+    background: url(../images/bg/5.bg.jpg) no-repeat center;
+    width:1440px; height:1990px; margin:0 auto; background-size: cover;
+}
+section .hotel_intro .hotel_int_top {
+    height: 130px;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+}
+section .hotel_intro .hotel_int_top img {
+    width:70px; height:70px;
+    margin-top: 100px;
+}
+section .hotel_intro .hotel_int_top span {
+    font-size: 1.333rem;
+    margin: 100px 0 0 0px;
+    font-family: 'Nanum Brush Script', cursive;
+    src: url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap');
+    font-weight: 600;
+}
+section .hotel_intro h1 {
+    color:#591202;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 3.157rem;
+    margin: 20px 0 10px 0;
+}
+section .hotel_intro h2 {
+    color:#591202;
+    text-align: center;
+    font-size: 3.157rem;
+}
+section .hotel_intro p {
+    color:#bf3e0f;
+    text-align: center;
+    font-size: 1.333rem;
+    line-height: 40px;
+    margin-top: 20px;
+}
+section .hotel_intro p em {
+    color:#260101;
+    font-size: 1.333rem;
+}
+section .hotel_intro .contents {
+    margin: 0 auto;
+    width: 1200px;
+    margin-bottom: 100px;
+}
+section .hotel_intro .contents .contents_desc {
+}
+section .hotel_intro .contents .contents_desc .contents1 {
+    width:1200px; height: 373px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 76px 0 54px 0;
+}
+section .hotel_intro .contents .contents_desc .contents1 .content1_left {
+    margin-bottom: 150px;
+}
+section .hotel_intro .contents .contents_desc .contents1 .content1_left p {
+    color:#591202;
+    font-size: 1.777rem;
+    letter-spacing: -4%;
+    text-align: left;
+}
+section .hotel_intro .contents .contents_desc .contents1 .content1_left p em {
+    color:#591202;
+    font-size: 1.333rem;
+    letter-spacing: -4%;
+    
+}
+section .hotel_intro .contents .contents_desc .contents1 .content1_left span {
+    display: block;
+    color: #bf3e0f;
+    font-size: 1.333rem;
+    line-height: 50px;
+}
+section .hotel_intro .contents .contents_desc .contents1 img {
+    width:610px; height:373px;
+    border-radius: 50px;
+}
+section .hotel_intro .reservation_go {
+    background: #f2c230;
+    width:363px; height:86px;
+    text-align: center;
+    border-radius: 50px;
+    padding-top: 25px;
+    margin: 0 auto;
+}
 section .hotel_intro .reservation_go a {}
-section .hotel_intro .reservation_go a span {}
-section .hotel_intro .reservation_go a img {}
+section .hotel_intro .reservation_go a span {
+    font-size: 1.777rem;
+    color:#fff;
+    text-shadow: 2px 2px 2px #000;
+    font-family: 'Noto Sans KR', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap');;
+    font-weight: 600;
+}
+section .hotel_intro .reservation_go a img {
+    width:20px; height:20px;
+}
 /* 6 체험영상 영역  */
 section {}
-section .youtube_bg {}
-section .youtube_bg .content {}
-section .youtube_bg .content h1 {}
-section .youtube_bg .content h2 {}
-section .youtube_bg .content video {}
-section .youtube_bg .content p {}
-section .youtube_bg .content span {}
-section .youtube_bg .reservation_go {}
+section .youtube_bg {
+    background: url(../images/bg/6.bg.jpg) no-repeat center;
+    width:1440px; height:1680px; margin:0 auto; background-size: cover;
+}
+section .youtube_bg .content {
+    width:1200px;
+    margin: 0 auto;
+}
+section .youtube_bg .content h1 {
+    color:#591202;
+    text-align: center;
+    font-size: 3.157rem;
+    margin: 100px 0 10px 0;
+    padding-top: 100px;
+}
+section .youtube_bg .content h2 {
+    color:#bf3e0f;
+    text-align: center;
+    font-size: 3.157rem;
+    margin-bottom: 50px;
+}
+section .youtube_bg .content iframe {
+    width:1200px; height:700px;
+    margin: 0 auto;
+    }
+section .youtube_bg .content p {
+    font-size: 1.777rem; color:#260101;
+    margin: 30px 0 0 0px;
+    font-family: 'Nanum Brush Script', cursive;
+    src: url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap');
+    font-weight: 600;
+    text-align: center; line-height: 100px;
+    margin-bottom: 20px;
+}
+section .youtube_bg .reservation_go {
+    background: #f2c230;
+    width:363px; height:86px;
+    text-align: center;
+    border-radius: 50px;
+    padding-top: 25px;
+    margin: 0 auto;
+}
 section .youtube_bg .reservation_go a {}
-section .youtube_bg .reservation_go a span {}
-section .youtube_bg .reservation_go a img {}
+section .youtube_bg .reservation_go a span {
+    font-size: 1.777rem;
+    color:#fff;
+    text-shadow: 2px 2px 2px #000;
+    font-family: 'Noto Sans KR', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap');;
+    font-weight: 600;
+}
+section .youtube_bg .reservation_go a img {
+    width:20px; height:20px;
+}
 /* 7 여행 후기 영역 */
 section {}
-section h1 {}
-section h2 {}
-section .review_bg {}
-section .review_bg .review1 {}
-section .review_bg .review1 p {}
-section .review_bg .review1 span {}
-section .review_bg .rvw_more {}
-section .review_bg .rvw_more span {}
-section .review_bg .rvw_more span img {}
-section .travel_select {}
-section .travel_select .select {}
-section .travel_select .select h3 {}
-section .travel_select .select form {}
-section .travel_select .select form fieldset {}
-section .travel_select .select form fieldset legend {}
-section .travel_select .select form fieldset ul {}
-section .travel_select .select form fieldset ul li {}
-section .travel_select .select form fieldset ul li label {}
-section .travel_select .select form fieldset ul li label #s1 {}
-section .travel_select .select form fieldset ul li label span {}
-section .travel_select .select form fieldset ul li label #s2 {}
-section .travel_select .select form fieldset ul li label #s3 {}
-section .travel_select .reservation_go {}
+section h1 {
+    color:#591202;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 3.157rem;
+    margin: 100px 0 10px 0;
+}
+section h2 {
+    color:#bf3e0f;
+    text-align: center;
+    font-size: 3.157rem;
+    margin-bottom: 50px;
+}
+section .review_bg {
+    width: 1200px; height: 950px;
+    background: url(../images/bg/7.pad_bg.jpg);
+    margin: 0 auto;
+    overflow: hidden;
+}
+section .review_bg .review1 {
+    width: 1036px;
+    margin: 0 auto;
+    padding-top: 20px;
+    overflow: hidden;
+    }
+section .review_bg .review1 p {
+    font-size: 1.777rem;
+    color: #260101; line-height: 50px;
+    margin-bottom: 30px;
+}
+section .review_bg .review1 span {
+    float: right;
+    color:#bf3e0f;
+    font-size: 1.777rem;
+    margin-bottom: 20px;
+}
+section .review_bg .rvw_more {
+    background: #f29d35;
+    width:274px; height:80px;
+    text-align: center;
+    border-radius: 50px;
+    float: right;
+    margin-right: 82px;
+    text-shadow: 2px 2px 2px #000;
+    }
+section .review_bg .rvw_more a {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+
+}
+section .review_bg .rvw_more a span {
+    font-size: 1.333rem;
+    color:#fff;
+    
+}
+section .review_bg .rvw_more a img {
+    width:50px; height:50px;
+}
+section .travel_select {
+    width: 1200px; height: 300px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+section .travel_select .select {
+    width: 390px;
+}
+section .travel_select .select h3 {
+    width: 360px;
+    font-size: 2.369rem;
+    color:#591202;
+    text-align: center;
+    line-height: 50px;
+}
+section .travel_select .select h3 em {
+    display: block;
+    text-align: center;
+    font-size: 2.369rem;
+    color:#bf3e0f;
+    
+}
+section .travel_select .select #travel_select {
+    margin-top: 43px;
+}
+section .travel_select .select #travel_select fieldset {}
+section .travel_select .select #travel_select fieldset legend {
+    display: none;
+}
+section .travel_select .select #travel_select fieldset ul {
+    padding-left: 25px;
+}
+section .travel_select .select #travel_select fieldset ul li {
+    font-size: 1.333rem;
+    color: #260101;
+    margin-bottom: 10px;
+}
+section .travel_select .select #travel_select fieldset ul li label {}
+section .travel_select .select #travel_select fieldset ul li label input {
+    appearance: none;
+}
+section .travel_select .select #travel_select fieldset ul li label span {
+    background: url(../images/icon/no-check3.png) no-repeat;
+    padding-left: 30px;
+    font-size: 1.333rem;
+}
+section .travel_select .select #travel_select fieldset ul li label input:checked+span {
+    background:url(../images/../images/icon/checking3.png) no-repeat;
+}
+section .travel_select .select #travel_select fieldset ul li label #s2 {}
+section .travel_select .select #travel_select fieldset ul li label #s3 {}
+section .travel_select .reservation_go {
+    background: #f2c230;
+    width:363px; height:86px;
+    text-align: center;
+    border-radius: 50px;
+    padding-top: 25px;
+}
 section .travel_select .reservation_go a {}
-section .travel_select .reservation_go a span {}
-section .travel_select .reservation_go a img {}
+section .travel_select .reservation_go a span {
+    font-size: 1.777rem;
+    color:#fff;
+    text-shadow: 2px 2px 2px #000;
+    font-family: 'Noto Sans KR', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap');;
+    font-weight: 600;
+}
+section .travel_select .reservation_go a img {
+    width:20px; height:20px;
+}
